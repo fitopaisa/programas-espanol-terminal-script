@@ -71,8 +71,10 @@ sudo dpkg -i wps-office-fonts_1.0_all.deb
 ## Instalamos fuentes símbolos
 
 ### Símbolos requeridos por wps-offices para mostrar fórmulas matemáticas. "
-### Fuente En ingles.
-### Traducido por fitopaisa@hotmail.com
+### Fuente En ingles:
+https://github.com/iamdh4/ttf-wps-fonts
+### Traducido y modificado por adolfo andrino sanchez
+
 
 Cambiamos permisos del fichero instala fuentes para ejecución"
 ```

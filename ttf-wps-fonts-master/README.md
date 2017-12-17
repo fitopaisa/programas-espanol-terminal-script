@@ -22,7 +22,7 @@ ejecutar el script
 sudo bash install.sh
 ```
 
-Clean up the `tmp` directory.
+Borra repositior de la carpeta termoral `tmp`
 ```
 rm -rf /tmp/ttf-wps-fonts
 ```
