@@ -6,7 +6,7 @@ Script by fitopaisa@hotmail.com - www.darkmantune.com
 Paquete libre y mejorado.
 versión Alpha21[2017-06-15] 
 
-### instalación automática clonando
+## instalación automática clonando
 1. Clona el repositorio
 ```
 git@github.com:fitopaisa/programas-espanol-terminal-script.git
@@ -60,11 +60,28 @@ mv es_ES ~/.kingsoft/office6/dicts
 ```
 
 ## Instalando fuentes 
-##instalamos las fuentes offices para mayor compatibilidad
+### instalamos las fuentes offices para mayor compatibilidad
 desgardamos el paquete .deb con las fuentes y lo instalamos.
 ```
 wget http://kdl.cc.ksosoft.com/wps-community/download/fonts/wps-office-fonts_1.0_all.deb
 sudo dpkg -i wps-office-fonts_1.0_all.deb
+```
+
+
+## Instalamos fuentes símbolos
+
+### Símbolos requeridos por wps-offices para mostrar fórmulas matemáticas. "
+### Fuente En ingles.
+### Traducido por fitopaisa@hotmail.com
+
+Cambiamos permisos del fichero instala fuentes para ejecución"
+```
+read -p "chmod 775 ttf-wps-fonts-master/instala-fuentes.sh "
+chmod 775 ttf-wps-fonts-master/instala-fuentes.sh
+```
+Ejecutamos el script de instalacion de las fuentes.
+```
+sudo bash ttf-wps-fonts-master/instala-fuentes.sh
 ```
 
 ## borrando ficheros de instalación
