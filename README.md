@@ -30,7 +30,7 @@ wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~
 Librerias para la version de Ubuntu 17.10
 Si tienes una versión anterior de 17.10 de ubuntu no la necesitas.
 Se instalaría sola.
-descargamos en https://packages.ubuntu.com/xenial/amd64/libpng12-0/download
+Descargamos de https://packages.ubuntu.com/xenial/amd64/libpng12-0/download
 ```
 wget http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
 ```
@@ -70,15 +70,14 @@ sudo dpkg -i wps-office-fonts_1.0_all.deb
 
 ## Instalamos fuentes símbolos
 
-### Símbolos requeridos por wps-offices para mostrar fórmulas matemáticas. "
+### Símbolos requeridos por wps-offices para mostrar fórmulas matemáticas.
 ### Fuente En ingles:
 https://github.com/iamdh4/ttf-wps-fonts
 ### Traducido y modificado por adolfo andrino sanchez
 
 
-Cambiamos permisos del fichero instala fuentes para ejecución"
+Cambiamos permisos del fichero instala fuentes para ejecución
 ```
-read -p "chmod 775 ttf-wps-fonts-master/instala-fuentes.sh "
 chmod 775 ttf-wps-fonts-master/instala-fuentes.sh
 ```
 Ejecutamos el script de instalacion de las fuentes.
