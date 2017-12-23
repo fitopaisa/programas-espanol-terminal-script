@@ -9,7 +9,7 @@ versión Alpha21[2017-06-15]
 ## instalación automática clonando
 1. Clona el repositorio
 ```
-git@github.com:fitopaisa/programas-espanol-terminal-script.git
+git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 ```
 2. Ejecuta el script en terminal 
 ```
@@ -18,7 +18,7 @@ git@github.com:fitopaisa/programas-espanol-terminal-script.git
 
 
 
-## instalacion manual
+## instalación manual
 En mi caso descargamos amd64.deb
 mirar según la distro que tengais y el procesador si es i386.deb o 64
 ```
@@ -27,7 +27,7 @@ wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~
 
 ```
 
-Librerias para la version de Ubuntu 17.10
+Librerías para la versión de Ubuntu 17.10
 Si tienes una versión anterior de 17.10 de ubuntu no la necesitas.
 Se instalaría sola.
 Descargamos de https://packages.ubuntu.com/xenial/amd64/libpng12-0/download
@@ -48,7 +48,7 @@ sudo dpkg -i wps-office*
 ```
 
 ### Descarga diccionario en Español
-lo tenemos enel repositorio pero lo descargaremos de la pagina oficial.
+lo tenemos en el repositorio pero lo descargaremos de la pagina oficial.
 ```
 wget http://wps-community.org/download/dicts/es_ES.zip 
 ```
@@ -61,7 +61,7 @@ mv es_ES ~/.kingsoft/office6/dicts
 
 ## Instalando fuentes 
 ### instalamos las fuentes offices para mayor compatibilidad
-desgardamos el paquete .deb con las fuentes y lo instalamos.
+Descargamos el paquete .deb con las fuentes y lo instalamos.
 ```
 wget http://kdl.cc.ksosoft.com/wps-community/download/fonts/wps-office-fonts_1.0_all.deb
 sudo dpkg -i wps-office-fonts_1.0_all.deb
@@ -73,7 +73,7 @@ sudo dpkg -i wps-office-fonts_1.0_all.deb
 ### Símbolos requeridos por wps-offices para mostrar fórmulas matemáticas.
 ### Fuente En ingles:
 https://github.com/iamdh4/ttf-wps-fonts
-### Traducido y modificado por adolfo andrino sanchez
+### Traducido y modificado por Adolfo Andrino Sanchez
 
 
 Cambiamos permisos del fichero instala fuentes para ejecución
@@ -91,4 +91,3 @@ El paquete .deb ya nos hace falta lo borramos con rm [fichero]
 ```
 rm wps-office* libpng12-0* es_ES.zip
 ```
-

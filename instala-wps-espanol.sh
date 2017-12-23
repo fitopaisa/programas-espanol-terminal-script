@@ -23,7 +23,7 @@ presentacion
 
 
 ###############
-# instalacion Libre offices
+# instalación Libre offices
 #
 echo "${normal}${negrita}${verdeLuz}"
 echo 'Instalando Libre offices para linux - versión Alpha21[2017-06-15]'
@@ -52,14 +52,14 @@ read -p "wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.
 echo "${normal}"
 wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~a21_amd64.deb
 echo
-echo "Si tienes ubuntu versión 17.10 necesitaras esta libreria anterior libpng12-0_1.2.54-1ubuntu1_amd64.deb"
-echo "Si tienes una versión anterior de 17.10 de ubuntu no la necesitas. Saltate este paso."
+echo "Si tienes ubuntu versión 17.10 necesitaras esta librería anterior libpng12-0_1.2.54-1ubuntu1_amd64.deb"
+echo "Si tienes una versión anterior de 17.10 de ubuntu no la necesitas. Sáltate este paso."
 
-#> descarga librerias
+#> descarga librerías
 echo "$comenta"
-echo "Descarga librerias necesarias"
+echo "Descarga librerías necesarias"
 echo "$normal"
-echo "Libreria anterior para Ubuntu 17.10"
+echo "Librería anterior para Ubuntu 17.10"
 echo "descargamos en https://packages.ubuntu.com/xenial/amd64/libpng12-0/download"
 echo
 echo "${normal}${negrita}"
@@ -68,7 +68,7 @@ echo "${normal}"
 wget http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb 
 echo 
 
-#> Instlando Paquetes Deb
+#> Instalando Paquetes Deb
 echo "$comenta"
 echo "Instalando ficheros .deb"
 echo
