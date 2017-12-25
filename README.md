@@ -6,15 +6,14 @@ Script by fitopaisa@hotmail.com - www.darkmantune.com
 Paquete libre y mejorado.
 versión Alpha21[2017-06-15] 
 
-## guía paso a paso en youtube
-### [YouTube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be) 
+## [Link: Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be) 
 
 ## instalación automática clonando
 **1. Clona el repositorio**
 ```
 git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 ```
-**2. Ejecuta el script en terminal **
+**2. Ejecuta el script en terminal**
 ```
 ./instala-wps-espanol.sh
 ```
