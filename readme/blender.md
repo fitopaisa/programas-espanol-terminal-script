@@ -35,7 +35,7 @@ git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 
 ## instalación manual
 
-### Comprobamos la ultima version 
+**Comprobamos la ultima version**
 ```
 Firefox https://www.blender.org/download/ 
 ```
@@ -43,22 +43,22 @@ Firefox https://www.blender.org/download/
 Añadiremos el repositorio de thomas 
 Esta mas actualizado que el apt de ubuntu Ubuntu
 
-### Contrastamos la version del repositorio con la de blender
+**Contrastamos la version del repositorio con la de blender**
 ```
 firefox https://launchpad.net/~thomas-schiex/+archive/ubuntu/blender
 ```
 
-### Añadiendo repositorio PPA
+**Añadiendo repositorio PPA**
 ```
 sudo add-apt-repository ppa:thomas-schiex/blender
 ```
 
-### Actualizamos repositorio
+**Actualizamos repositorio**
 ```
 sudo apt-get update 
 ```
 
-### Instalando blender
+**Instalando blender**
 ```
 sudo apt-get install blender
 ```
