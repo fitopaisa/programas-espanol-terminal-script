@@ -4,15 +4,15 @@
 Script by fitopaisa@hotmail.com - www.darkmantune.com
 
 
-# Wps - office para Linux Español
-## [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
-### [Guía paso a paso README](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
+# Wps office para Linux Español
+#### [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
+#### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/wps-offices.md)
 
 
 # Blender 
-app actualizable para Linux Español
-## [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
-### [Guía paso a paso README](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
+###app actualizable para Linux Español
+#### [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
+#### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/blender.md)
 
 
 ## instalación automática clonando

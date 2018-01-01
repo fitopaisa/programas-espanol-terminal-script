@@ -4,8 +4,20 @@
 Script by fitopaisa@hotmail.com - www.darkmantune.com
 
 Ubuntu 14,04 Ubuntu 16,04 Ubuntu 17,10 y derivados 
+Repositorio belender para actualizaciones automatices desde la app 
+
+Multiplataforma
+Linux Windows MacOS
+
+- Soporte OpenCL Mejorado
+- 10 ~ 20% de rendimiento más rápido para las CPU modernas x86_64 con AVX2
+- soporte automático de DPI para determinar las pantallas HiDPI
+- revisión del soporte de salida de video de Blender
+- nuevo eliminador de ruido, sombreador PBR, receptor de sombra, gestión de color fílmico
+- más de 700 correcciones de errores 
 
 ## [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
+
 
 
 ## instalación automática (clonando)
@@ -15,80 +27,47 @@ git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 ```
 **2. Ejecuta el script en terminal**
 ```
-./instala-wps-espanol.sh
+./instala-blender-app.sh
 ```
+
+
 
 
 ## instalación manual
-En mi caso descargamos amd64.deb
-mirar según la distro que tengais y el procesador si es i386.deb o 64
-```
-firefox http://wps-community.org/downloads
-wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~a21_amd64.deb
 
+###Comprobamos la ultima version 
+```
+Firefox https://www.blender.org/download/ 
 ```
 
-Librerías para la versión de Ubuntu 17.10
-Si tienes una versión anterior de 17.10 de ubuntu no la necesitas.
-Se instalaría sola.
-Descargamos de https://packages.ubuntu.com/xenial/amd64/libpng12-0/download
+Añadiremos el repositorio de thomas 
+Esta mas actualizado que el apt de ubuntu Ubuntu
+
+###Contrastamos la version del repositorio con la de blender
 ```
-wget http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
+firefox https://launchpad.net/~thomas-schiex/+archive/ubuntu/blender
 ```
 
-
-### Instalando ficheros deb
-dpkg para los paquetes deb. -i para instalar y el nombre del fichero.deb
+###Añadiendo repositorio PPA
 ```
-sudo dpkg -i libpng12-0*
+sudo add-apt-repository ppa:thomas-schiex/blender
 ```
 
-### Instala wps-offices
+###Actualizamos repositorio
 ```
-sudo dpkg -i wps-office*
-```
-
-### Descarga diccionario en Español
-lo tenemos en el repositorio pero lo descargaremos de la pagina oficial.
-```
-wget http://wps-community.org/download/dicts/es_ES.zip 
+sudo apt-get update 
 ```
 
-### Descomprimiendo archivo zip y moviendolo a la carpeta del programa
+###Instalando blender
 ```
-unzip es_ES.zip
-mv es_ES ~/.kingsoft/office6/dicts
-```
-
-## Instalando fuentes 
-### instalamos las fuentes offices para mayor compatibilidad
-Descargamos el paquete .deb con las fuentes y lo instalamos.
-```
-wget http://kdl.cc.ksosoft.com/wps-community/download/fonts/wps-office-fonts_1.0_all.deb
-sudo dpkg -i wps-office-fonts_1.0_all.deb
+sudo apt-get install blender
 ```
 
 
-## Instalamos fuentes símbolos
-
-### Símbolos requeridos por wps-offices para mostrar fórmulas matemáticas.
-### Fuente En ingles:
-https://github.com/iamdh4/ttf-wps-fonts
-### Traducido y modificado por Adolfo Andrino Sanchez
 
 
-Cambiamos permisos del fichero instala fuentes para ejecución
-```
-chmod 775 ttf-wps-fonts-master/instala-fuentes.sh
-```
-Ejecutamos el script de instalacion de las fuentes.
-```
-sudo bash ttf-wps-fonts-master/instala-fuentes.sh
-```
 
-## borrando ficheros de instalación
-Borramos los ficheros .deb y la carpeta /es_ES con el diccionario
-El paquete .deb ya nos hace falta lo borramos con rm [fichero]
+## Como desisntalarlo
 ```
-rm wps-office* libpng12-0* es_ES.zip
+sudo apt-get autoremove blender
 ```
