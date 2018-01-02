@@ -22,8 +22,8 @@ Script by fitopaisa@hotmail.com - www.darkmantune.com
 git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 ```
 **2. Ejecuta el script en terminal**
-```
-./instala-wps-espanol.sh
-```
+Pincha en la guia de tu programa preferido 
+Solo ejecuntando el script tendreas todo listo
+
 
 
