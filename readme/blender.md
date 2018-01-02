@@ -16,7 +16,7 @@ Linux Windows MacOS
 - nuevo eliminador de ruido, sombreador PBR, receptor de sombra, gestión de color fílmico
 - más de 700 correcciones de errores 
 
-## [Guía paso a paso en Youtube](https://youtu.be/YPvd-MqOCqo)
+## [Guía paso a paso en Youtube](https://youtu.be/DNUt-C8pNhg)
 
 
 

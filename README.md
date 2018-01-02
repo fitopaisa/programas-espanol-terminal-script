@@ -12,7 +12,7 @@ Script by fitopaisa@hotmail.com - www.darkmantune.com
 
 # Blender 
 ### app actualizable para Linux Español última versión oficial
-#### [Guía paso a paso en Youtube](https://youtu.be/YPvd-MqOCqo)
+#### [Guía paso a paso en Youtube](https://youtu.be/DNUt-C8pNhg)
 #### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/blender.md)
 
 
