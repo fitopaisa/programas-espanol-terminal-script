@@ -15,6 +15,16 @@ Script by fitopaisa@hotmail.com - www.darkmantune.com
 #### [Guía paso a paso en Youtube](https://youtu.be/DNUt-C8pNhg)
 #### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/blender.md)
 
+# Zsh - Ho My Zsh
+### Script de instalación completa zsh - Ho My Zsh
+Complementos 
+- Temas de Ho My Zsh
+- Git 
+- screenfetch
+#### [Guía paso a paso en Youtube](#)
+#### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/zsh-oh-my-zsh.md)
+
+
 
 ## instalación automática clonando
 **1. Clona el repositorio**

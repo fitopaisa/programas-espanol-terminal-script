@@ -9,6 +9,19 @@ versión Alpha21[2017-06-15]
 ## [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
 
 
+
+## instalación automática (clonando)
+**1. Clona el repositorio**
+```
+git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
+```
+**2. Ejecuta el script en terminal**
+```
+./instala-wps-espanol.sh
+```
+
+
+
 ## instalación manual
 En mi caso descargamos amd64.deb
 mirar según la distro que tengais y el procesador si es i386.deb o 64

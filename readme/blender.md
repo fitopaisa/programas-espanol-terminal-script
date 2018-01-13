@@ -67,7 +67,7 @@ sudo apt-get install blender
 
 
 
-## Como desisntalarlo
+### Como desisntalarlo
 ```
 sudo apt-get autoremove blender
 ```
