@@ -8,14 +8,13 @@ clear
 
 function presentacion {  
 clear
-echo;echo
 echo -n "$negrita" 
 echo "---------------------------------------------------"
 echo "         Zsh - Ho My Zsh"
 echo '---------------------------------------------------'
 echo
-echo
 echo '   ZSH        / shell mas amigable con temas'
+echo
 echo '   Complementos:'
 echo '   Ho My Zsh   / Temas para Zsh'
 echo '   git-core    / core de git con autocompletado'
@@ -28,21 +27,21 @@ echo;echo
 
 presentacion
 
-
 ###############
 # instalación ZSH
 #
 echo -n "$comenta"
 echo "Instalando ZSH"
-echo "-------------------------"
 echo "${normal}${negrita}"
 read -p "sudo apt-install zsh "
 echo -n "$normal"
 sudo apt-get install zsh
 echo "$comenta"
-read -p "Instalado ZSH "
+read "Instalado ZSH "
+read -p "------------- "
+
 #> instalando git
-echo -n "$comenta"
+echo "$comenta"
 echo "Instalando git-core"
 echo "-------------------"
 echo "${normal}"
@@ -54,12 +53,11 @@ sudo apt-get install git-core
 echo -n "$comenta"
 echo
 echo "Instalado git "
-read -p "--------------"
+read -p "-------------- "
 
 #> instalando oh-My-Zsh
-echo -n "$comenta"
+echo "$comenta"
 echo "Instalando oh my zsh"
-echo "--------------------"
 echo "${normal}"
 echo "Con el comando sh -c ejecutamos el script de instalación de oh my-zsh"
 echo "${normal}${negrita}"
@@ -72,23 +70,26 @@ echo "${normal}${negrita}"
 read -p "sudo chsh -s /usr/bin/zsh "
 sudo chsh -s /usr/bin/zsh
 echo "$comenta"
-read -p "Instalado oh my zsh"
+echo "Instalado oh my zsh"
+read -p "------------------- "
 
 #> Instalando screenfetch
-echo -n "$comenta"
-echo "         Instalando screenfetch"
+echo "$comenta"
+echo "Instalando screenfetch"
+echo "$normal"
 echo '   texto ascii con tu versión de kernel'
-echo '---------------------------------------------------'
-echo -n "$comenta"
 echo "visualiza en color en ascii de la versión del kernel"
 echo "${normal}${negrita}"
 read -p 'sudo apt-get install screenfetch '
 echo -n "${normal}"
 sudo apt-get install screenfetch
-echo 
+echo -n "$comenta"
+echo
+echo "Instalado screenfetch"
+read -p "--------------------- "
 
 #> configurando inicio screenfetch
-echo -n "$comenta"
+echo "$comenta"
 echo "         configurando inicio de .zshrc"
 echo '---------------------------------------------------'
 echo
@@ -105,12 +106,12 @@ echo -n "${normal}${negrita}"
 read -p 'sudo echo "# Linea screenfecth al abrir el terminal" >> ~/.zshrc '
 echo -n "${normal}"
 sudo echo "# Linea screenfecth al abrir el terminal" >> ~/.zshrc 
-#> linea 1
+#> linea 3
 echo -n "${normal}${negrita}"
 read -p 'sudo echo "echo" >> ~/.zshrc ' h
 echo -n "${normal}"
 sudo echo "echo" >> ~/.zshrc
-#> linea 1
+#> linea 4
 echo -n "${normal}${negrita}"
 read -p 'sudo echo "/usr/bin/screenfetch " >> ~/.zshrc '
 echo -n "${normal}"
