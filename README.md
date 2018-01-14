@@ -32,8 +32,8 @@ Complementos
 git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 ```
 **2. Ejecuta el script en terminal**
-Pincha en la guia de tu programa preferido 
-Solo ejecuntando el script tendreas todo listo
+Pincha en la guía de tu programa preferido 
+Solo ejecutando el script tendrás todo listo.
 
 
 

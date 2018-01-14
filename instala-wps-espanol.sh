@@ -7,7 +7,7 @@ color
 clear
 
 function presentacion {  
-echo -n "$negrita" #-n es para que no haga retorno de carro
+echo -n "$negrita" 
 echo "---------------------------------------------------"
 echo "         Wps - office para Linux"
 echo '---------------------------------------------------'
