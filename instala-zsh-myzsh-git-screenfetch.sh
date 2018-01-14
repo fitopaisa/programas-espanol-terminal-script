@@ -37,7 +37,7 @@ read -p "sudo apt-install zsh "
 echo -n "$normal"
 sudo apt-get install zsh
 echo "$comenta"
-read "Instalado ZSH "
+echo "Instalado ZSH "
 read -p "------------- "
 
 #> instalando git
