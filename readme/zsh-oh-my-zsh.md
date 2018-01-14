@@ -13,6 +13,8 @@ Completamente compatible con bash
 autocompletado magnifico 
 Junto con los temas de Ho My Zsh hacen una terminal muy potente he intuitiva. 
 
+## [Guía paso a paso en Youtube](https://www.youtube.com/watch?v=cslxODhqbg8&feature=youtu.be)
+
 ## instalación automática (clonando)
 **1. Clona el repositorio**
 ```
@@ -24,7 +26,7 @@ git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 ```
 
 ## instalación manual
-###instalamos zsh
+### instalamos zsh
 ```
 sudo apt-get install zsh
 ```

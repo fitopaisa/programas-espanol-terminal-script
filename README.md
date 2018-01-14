@@ -21,7 +21,7 @@ Complementos
 - Temas de Ho My Zsh
 - Git 
 - screenfetch
-#### [Guía paso a paso en Youtube](#)
+#### [Guía paso a paso en Youtube](https://youtu.be/q2zrRgezjQE)
 #### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/zsh-oh-my-zsh.md)
 
 
