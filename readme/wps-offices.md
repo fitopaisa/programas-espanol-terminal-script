@@ -31,9 +31,7 @@ wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~
 
 ```
 
-Librerías para la versión de Ubuntu 17.10
-Si tienes una versión anterior de 17.10 de ubuntu no la necesitas.
-Se instalaría sola.
+descargamos, Instalamos la libreria como dependencias necesarias
 Descargamos de https://packages.ubuntu.com/xenial/amd64/libpng12-0/download
 ```
 wget http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
