@@ -59,7 +59,7 @@ echo "Si tienes una versión anterior de 17.10 de ubuntu no la necesitas. Sálta
 echo "$comenta"
 echo "Descarga librerías necesarias"
 echo "$normal"
-echo "Librería anterior para Ubuntu 17.10"
+echo "Dependencias"
 echo "descargamos en https://packages.ubuntu.com/xenial/amd64/libpng12-0/download"
 echo
 echo "${normal}${negrita}"
@@ -67,6 +67,8 @@ read -p "http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.5
 echo "${normal}"
 wget http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb 
 echo 
+
+dependencia.libpng12-0_1.2.54-1ubuntu1_amd64
 
 #> Instalando Paquetes Deb
 echo "$comenta"
