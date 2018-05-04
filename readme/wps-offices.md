@@ -22,7 +22,7 @@ git clone git@github.com:fitopaisa/programas-espanol-terminal-script.git
 
 
 
-## instalación manual
+## Instalación manual
 En mi caso descargamos amd64.deb
 mirar según la distro que tengais y el procesador si es i386.deb o 64
 ```
@@ -31,6 +31,7 @@ wget http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~
 
 ```
 
+### Dependencias
 descargamos, Instalamos la libreria como dependencias necesarias
 Descargamos de https://packages.ubuntu.com/xenial/amd64/libpng12-0/download
 ```
