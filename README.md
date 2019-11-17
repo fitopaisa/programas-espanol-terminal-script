@@ -1,4 +1,4 @@
-# Wps - Programas en español para debian y derivados
+# Programas en español para debian y derivados
 
 ### Script de instalación completa y sencilla de programas en Español.
 Script by fitopaisa@hotmail.com - www.darkmantune.com
@@ -7,13 +7,13 @@ Script by fitopaisa@hotmail.com - www.darkmantune.com
 # Wps office 
 ### Dicionario y fuentes en español.
 #### [Guía paso a paso en Youtube](https://youtu.be/cslxODhqbg8)
-#### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/wps-offices.md)
+#### [Guía paso a paso](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/wps-offices.md)
 
 
 # Blender 
 ### app actualizable para Linux Español última versión oficial
 #### [Guía paso a paso en Youtube](https://youtu.be/DNUt-C8pNhg)
-#### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/blender.md)
+#### [Guía paso a paso](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/blender.md)
 
 # Zsh - Ho My Zsh
 ### Script de instalación completa zsh - Ho My Zsh
@@ -22,8 +22,19 @@ Complementos
 - Git 
 - screenfetch
 #### [Guía paso a paso en Youtube](https://youtu.be/q2zrRgezjQE)
-#### [Guía paso a paso README](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/zsh-oh-my-zsh.md)
+#### [Guía paso a paso](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/zsh-oh-my-zsh.md)
 
+
+# subsistema de Windows para Linux WSL
+## Windows10 con la terminal de linux
+
+### Montando una USB y una Red compartida
+
+#### Mount -t drvfs [Ruta Origen] [Ruta Montaje]
+Permite montar en WSL cualquier unidad FAT ExFAT o NTFS
+utilizando el sistema de archivos DrvFs
+
+#### [Guía paso a paso](https://github.com/fitopaisa/programas-espanol-terminal-script/blob/master/readme/mount-usb-WSL.md)
 
 
 ## instalación automática clonando
