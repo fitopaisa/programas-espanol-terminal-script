@@ -21,14 +21,6 @@ suponiendo que la letra e: es el usb en windows en otro caso usa tu letra
 mount -t drvfs e: /media/usb
 ```
 
-**Monte la unidad usb**
-
-de la unidad e: de Windows a la ruta /media/usb
-
-```
-mount -t drvfs e: /media/usb
-```
-
 **Crea directorio para montaje de una red**
 ```
 mkdir /media/compartido
