@@ -45,8 +45,9 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 ### configurando consola por defecto ZSH
 Con el comando chsh -s Configuramos por defecto que abra el sheel zsh
+```
 sudo chsh -s /usr/bin/zsh
-
+```
 
 ### Instalando screenfetch
 visualiza en color en ascii de la versión del kernel
